@@ -10,6 +10,49 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: rgb(9, 56, 9);
 }
 
 /* your code */
+body {
+  padding: 0 20% 20% 20%;
+}
+
+nav {
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+nav>h1 {
+  color: #f2f0eb; 
+  font-size: 2rem;   
+}
+
+header { 
+  background-color: #bbb8ad;  
+} 
+
+label {
+  display: block;  
+  background-color: #bbb8ad;  
+  margin-bottom: .5rem; 
+}
+
+label, section {
+  padding: .7rem;
+  border-radius: .2rem; 
+}
+
+section {   
+  border: .1rem solid #bbb8ad;    
+  text-align: center;  
+}
+
+.city-item {
+  font-size: .8rem;
+  background-color: #0b6f4a; 
+  margin-bottom: .3rem; 
+  text-align: end;
+  padding: .2rem;
+}
